@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(206, 247, 247);
+  justify-content: center;
+}
+nav {
+  margin-inline: 5%;
+}
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  justify-content: space-between;
+  padding: 0;
+  padding-inline: 5%;
+  border-style: solid;
+  border-color: pink;
+}
+
+.nav-list li {
+  padding-block: 20px;
+}
+
+.wrapper1 {
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+  gap: 10%;
+}
+
+.sec1,
+.sec2 {
+  width: 40%;
+  text-align: center;
+  border-style: solid;
+  border-color: pink;
+}
+
+.cat-image {
+  width: 200px;
+  height: 200px;
+  border: 1em;
+  border-radius: 10%;
+  margin-top: 5%;
+}
+
+.ftr {
+  width: 90%;
+  justify-content: center;
+  text-align: center;
+  margin-inline: 5%;
+  border-style: solid;
+  border-color: pink;
+}
